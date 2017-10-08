@@ -8,6 +8,17 @@
 
 import Cocoa
 
-class ImageProcess: NSObject {
+/*
+ This class is used for two things :
+ - To ask the user where he want his icns to be save
+ - Process the image to icns
+ - Return possible error code to the user
+ */
 
+class ImageProcess {
+    
+    required init?() {
+        
+    }
+    
 }
