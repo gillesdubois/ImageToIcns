@@ -732,9 +732,9 @@
                                                     </textFieldCell>
                                                 </textField>
                                                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9M8-DV-MKn" userLabel="Available Formats">
-                                                    <rect key="frame" x="72" y="99" width="214" height="22"/>
+                                                    <rect key="frame" x="115" y="93" width="129" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" title="Support .png .jpg .ico .bmp .gif only" id="Kpo-vn-1pq" userLabel="Format text">
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" title="Support .iconset only" id="Kpo-vn-1pq" userLabel="Format text">
                                                         <font key="font" size="13" name="HelveticaNeue"/>
                                                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
