@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		436BB0F01F8A832500441900 /* ImageProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436BB0EF1F8A832500441900 /* ImageProcess.swift */; };
 		43921D451F8A4AE600D43DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43921D441F8A4AE600D43DB6 /* AppDelegate.swift */; };
 		43921D471F8A4AE600D43DB6 /* ImageToIcnsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43921D461F8A4AE600D43DB6 /* ImageToIcnsViewController.swift */; };
 		43921D491F8A4AE600D43DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43921D481F8A4AE600D43DB6 /* Assets.xcassets */; };
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		436BB0EF1F8A832500441900 /* ImageProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcess.swift; sourceTree = "<group>"; };
 		43921D411F8A4AE600D43DB6 /* ImageToIcns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageToIcns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43921D441F8A4AE600D43DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43921D461F8A4AE600D43DB6 /* ImageToIcnsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToIcnsViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				43921D4D1F8A4AE600D43DB6 /* Info.plist */,
 				43921D4E1F8A4AE600D43DB6 /* ImageToIcns.entitlements */,
 				43921D701F8A6CDC00D43DB6 /* DragAndDrop.swift */,
-				436BB0EF1F8A832500441900 /* ImageProcess.swift */,
 			);
 			path = ImageToIcns;
 			sourceTree = "<group>";
@@ -266,7 +263,6 @@
 				43921D471F8A4AE600D43DB6 /* ImageToIcnsViewController.swift in Sources */,
 				43921D451F8A4AE600D43DB6 /* AppDelegate.swift in Sources */,
 				43921D711F8A6CDC00D43DB6 /* DragAndDrop.swift in Sources */,
-				436BB0F01F8A832500441900 /* ImageProcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

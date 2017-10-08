@@ -7,13 +7,17 @@
 //
 
 import Cocoa
+import os.log
 
 class DragAndDrop: NSView {
     
     var filePath: String?
+    var destPath: String?
     var defaultBackgroundColor: CGColor?
     
     let expectedExt = ["iconset", "jpg", "jpeg", "bmp", "png", "gif"]  //file extensions allowed for Drag&Drop
+    
+    let home = FileManager.default.homeDirectoryForCurrentUser
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
@@ -65,7 +69,12 @@ class DragAndDrop: NSView {
         
         //GET YOUR FILE PATH !!!
         self.filePath = path
-        Swift.print("FilePath: \(path)")
+        print("Source file path : \(filePath ?? "none")")
+        
+        // show dir browser
+        let controller = self.window?.contentViewController as! ImageToIcnsViewController;
+        controller.sourcePath = path;
+        controller.triggerConvertionActions()
         
         return true
     }
