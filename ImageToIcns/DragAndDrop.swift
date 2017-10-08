@@ -13,7 +13,7 @@ class DragAndDrop: NSView {
     var filePath: String?
     var defaultBackgroundColor: CGColor?
     
-    let expectedExt = ["jpg", "jpeg", "bmp", "png", "gif"]  //file extensions allowed for Drag&Drop (example: "jpg","png","docx", etc..)
+    let expectedExt = ["iconset"]  //file extensions allowed for Drag&Drop
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
