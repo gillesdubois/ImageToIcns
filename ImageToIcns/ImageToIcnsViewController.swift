@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ImageToIcnsViewController
 //  ImageToIcns
 //
 //  Created by Gilles Dubois on 08/10/2017.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ImageToIcnsViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
