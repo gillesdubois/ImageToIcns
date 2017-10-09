@@ -67,7 +67,6 @@ class DragAndDrop: NSView {
         
         //GET YOUR FILE PATH !!!
         self.filePath = path
-        print("Source file path : \(filePath ?? "none")")
         
         // show dir browser
         let controller = self.window?.contentViewController as! ImageToIcnsViewController;
