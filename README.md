@@ -1,5 +1,5 @@
 # ImageToIcns
-A little swift app that transform iconset and iconset to apple icon format (.icns)
+A little swift app that transform iconset to apple icon format (.icns)
 
 ## How to use
 
