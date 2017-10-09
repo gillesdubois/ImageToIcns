@@ -16,6 +16,10 @@ A little swift app that transform iconset to apple icon format (.icns)
 
 - Png, jpeg, jpg, ico to icns transform
 
+## Compatibilities
+
+- High Sierra has been tested only
+
 ## Credits
 
 - flaticon.com for the icon :) (more in the about me of the app)
